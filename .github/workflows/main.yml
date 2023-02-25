@@ -5,6 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: node:16.19-alpine
     steps:
-      - name: npm Install
       - run: echo "Hello World"
 
