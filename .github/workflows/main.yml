@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 jobs:
   init:
-    runs-on: node:16.19-alpine
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [ 17.x ]
